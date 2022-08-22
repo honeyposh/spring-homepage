@@ -101,3 +101,202 @@ ul{
 	color: lightblue;
 
 }
+.grid{
+	margin-left: 100px;
+}
+.text h1{
+	font-size: 40px;
+}
+.firstgrid a{
+	text-decoration: none;
+	color: black;
+}
+.firstgrid img{
+	width: 40%;
+	padding-top: 30px;
+}
+.firstgrid p{
+	font-size: 19px;
+
+}
+
+.firstgrid h2{
+	font-size:30px;
+
+}
+.firstgrid{
+	border: 1px solid lightgrey;
+	width: 85%;
+	height: 350px;
+	text-align: center;
+	
+
+}
+.secondgrid{
+	border: 1px solid lightgrey;
+	width: 85%;
+	height: 350px;
+	text-align: center;
+}
+.secondgrid a{
+	text-decoration: none;
+	color: black;
+}
+.secondgrid img{
+	width: 40%;
+	padding-top: 15px;
+}
+.secondgrid h2{
+	font-size: 30px;
+}
+.secondgrid p {
+	font-size: 19px;
+}
+.thirdgrid{
+	border: 1px solid lightgrey;
+	width: 85%;
+	height: 350px;
+	text-align: center;
+}
+.thirdgrid a{
+	text-decoration: none;
+	color: black;
+}
+.thirdgrid img{
+	width: 40%;
+	padding-top: 30px;
+}
+.thirdgrid h2{
+	font-size: 30px;
+}
+.thirdgrid p {
+	font-size: 19px;
+}
+.fourthgrid{
+	border: 1px solid lightgrey;
+	width: 85%;
+	height: 350px;
+	text-align: center;
+}
+.fourthgrid a{
+	text-decoration: none;
+	color: black;
+}
+.fourthgrid img{
+	width: 40%;
+	padding-top: 30px;
+}
+.fourthgrid h2{
+	font-size: 30px;
+}
+.fourthgrid p {
+	font-size: 19px;
+}
+.column1{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+.column2{
+	margin-left: 150px;
+	margin-right: 100px;
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+.fifthgrid{
+	border: 1px solid lightgrey;
+	width: 85%;
+	height: 350px;
+	text-align: center;
+}
+.fifthgrid a{
+	text-decoration: none;
+	color: black;
+}
+.fifthgrid img{
+	width: 40%;
+	padding-top: 15px;
+}
+.fifthgrid h2{
+	font-size: 30px;
+}
+.fifthgrid p {
+	font-size: 19px;
+}
+.sixthgrid{
+	border: 1px solid lightgrey;
+	width: 85%;
+	height: 350px;
+	text-align: center;
+}
+.sixthgrid a{
+	text-decoration: none;
+	color: black;
+}
+.sixthgrid img{
+	width: 40%;
+	padding-top: 15px;
+}
+.sixthgrid h2{
+	font-size: 30px;
+}
+.sixthgrid p {
+	font-size: 19px;
+}
+.seventhgrid{
+	border: 1px solid lightgrey;
+	width: 85%;
+	height: 350px;
+	text-align: center;
+}
+.seventhgrid a{
+	text-decoration: none;
+	color: black;
+}
+.seventhgrid img{
+	width: 40%;
+	padding-top: 30px;
+}
+.seventhgrid h2{
+	font-size: 30px;
+}
+.seventhgrid p {
+	font-size: 19px;
+}
+#blue{
+	color: lightblue;
+}
+.column3{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin-top: 100px;
+	
+
+}
+#code{
+	border: 1px solid black;
+	width: 120%;
+	height: 250px;
+	background-color: black;
+	color: skyblue;
+	padding-left: 50px;
+	padding-top: 50px;
+}
+#white{
+	color: white;
+}
+#lemon{
+	color: greenyellow;
+}
+#yellow{
+	color: yellow;
+}
+.levelup{
+	margin-left: 250px;
+}
+.levelup h1{
+	font-size: 40px;
+}
+.levelup p{
+	font-size: 20px;
+}

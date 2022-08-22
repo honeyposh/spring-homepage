@@ -1,8 +1,9 @@
-
 let display=["Simple","Modern","Productive","Reactive","cloud-ready"]
 let timeOut=document.getElementById("timeout")
 let whySpring=document.getElementById('whyspring')
 let quickStart=document.getElementById("quickstart")
+let y=document.getElementById("secondul")
+let x=document.getElementById("firstul")
 quickStart.addEventListener("mouseover",function (event){
 	event.target.style.backgroundColor="black";
 	event.target.style.color="white"
@@ -21,7 +22,6 @@ whySpring.addEventListener("mouseout",function(event){
 	event.target.style.color="black";
 
 })
-
 	for(let i=0;i<display.length;i++){
 			(function show(){
 				setTimeout(function(){
@@ -30,10 +30,6 @@ whySpring.addEventListener("mouseout",function(event){
 			})(i)
 	}
 
-
-
-let y=document.getElementById("secondul")
-let x=document.getElementById("firstul")
 function whyspring(){
 	x.style.display="block"
 
@@ -47,4 +43,11 @@ function span1(){
 }
 function span2(){
 	y.style.display="none"
+}
+
+function grid(elementId){
+	document.getElementById(elementId).style.color="#a6d608";
+}
+function griD(elementId){
+	document.getElementById(elementId).style.color="black";
 }
